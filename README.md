@@ -5,6 +5,8 @@ This is built solely on HTML, CSS, and JavaScript (fully responsive on all scree
 
 When an anime is selected, the background image changes and the intro video starts playing.
 
+Live project - [https://theblaisecode.github.io/Anime-Project/](https://theblaisecode.github.io/Anime-Project/)
+
 
 ## The Result
 
