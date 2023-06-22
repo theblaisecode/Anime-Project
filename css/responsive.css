@@ -1,0 +1,244 @@
+/******************************************
+/* Responsive Media Queries
+/*******************************************/
+/******************************************
+/* Smartphone
+/*******************************************/
+@media screen and (max-width: 675px) {
+   * {
+      overflow: hidden;
+   }
+
+   body {
+      height: 100vh;
+   }
+
+   .container {
+      width: 90%;
+   }
+
+   header {
+      width: 35rem;
+   }
+
+   header h1 {
+      padding: 0.5rem;
+      font-size: 2rem;
+   }
+
+   main {
+      flex-direction: column-reverse;
+      padding-top: 3rem;
+   }
+
+   .contentLeft {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+   }
+
+   .box {
+      width: 10rem;
+   }
+
+   img {
+      width: 6rem;
+      display: block;
+      margin: auto;
+   }
+
+   .contentLeft div:first-child img,
+   .contentLeft div:nth-child(14) img {
+      width: 4rem;
+   }
+
+   .contentLeft div:nth-child(4) img,
+   .contentLeft div:nth-child(7) img {
+      width: 5rem;
+   }
+
+   span {
+      font-size: 1.2rem;
+   }
+
+   .contentRight {
+      margin-left: 0;
+      margin-bottom: 2rem;
+   }
+}
+
+/******************************************
+/* Tablet
+/*******************************************/
+@media (min-width: 676px) and (max-width: 1089px) {
+   * {
+      overflow: hidden;
+   }
+
+   body {
+      height: 100vh;
+   }
+
+   header {
+      width: 35rem;
+   }
+
+   header h1 {
+      padding: 0.5rem;
+      font-size: 2rem;
+   }
+
+   main {
+      flex-direction: column-reverse;
+      padding-top: 3rem;
+   }
+
+   .contentLeft {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+   }
+
+   .box {
+      width: 10rem;
+   }
+
+   img {
+      width: 6rem;
+      display: block;
+      margin: auto;
+   }
+
+   .contentLeft div:first-child img,
+   .contentLeft div:nth-child(14) img {
+      width: 4rem;
+   }
+
+   .contentLeft div:nth-child(4) img,
+   .contentLeft div:nth-child(7) img {
+      width: 5rem;
+   }
+
+   span {
+      font-size: 1.2rem;
+   }
+
+   .contentRight {
+      margin-left: 0;
+      margin-bottom: 2rem;
+   }
+}
+
+/******************************************
+/* Laptop
+/*******************************************/
+@media (min-width: 1090px) and (max-width: 1200px) {
+   /* * {
+      overflow: hidden;
+   } */
+
+   body {
+      height: 100vh;
+   }
+   header h1 {
+      padding: 0.5rem;
+      font-size: 2rem;
+   }
+
+   main {
+      padding-top: 5rem;
+   }
+
+   main > div.contentLeft {
+      flex: 1;
+   }
+
+   main > div.contentRight {
+      flex: 1.5;
+   }
+
+   .contentLeft {
+      margin-right: 2rem;
+      grid-template-columns: repeat(3, 1fr);
+   }
+
+   .box {
+      width: 10.5rem;
+   }
+
+   img {
+      width: 6rem;
+      display: block;
+      margin: auto;
+   }
+
+   .contentLeft div:first-child img,
+   .contentLeft div:nth-child(14) img {
+      width: 4rem;
+   }
+
+   .contentLeft div:nth-child(4) img,
+   .contentLeft div:nth-child(7) img {
+      width: 4.8rem;
+   }
+
+   span {
+      font-size: 1.1rem;
+   }
+
+   .contentRight {
+      margin-left: 0;
+   }
+
+   /* video {
+      object-fit: contain;
+      overflow-clip-margin: content-box;
+      overflow: visible;
+   } */
+}
+
+/******************************************
+/* Widescreen
+/*******************************************/
+@media (min-width: 1201px) {
+   .container {
+      margin: 8rem auto;
+      width: 95%;
+   }
+
+   .contentLeft {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      row-gap: 4rem;
+   }
+
+   .box {
+      width: 12rem;
+   }
+
+   img {
+      width: 8rem;
+      display: block;
+      margin: auto;
+   }
+
+   .contentLeft div:first-child img,
+   .contentLeft div:nth-child(14) img {
+      width: 6rem;
+   }
+
+   .contentLeft div:nth-child(4) img,
+   .contentLeft div:nth-child(7) img {
+      width: 6.8rem;
+   }
+
+   span {
+      font-size: 1.5rem;
+   }
+}
+
+/******************************************
+/* Landscape
+/*******************************************/
+@media screen and (max-height: 600px) {
+}

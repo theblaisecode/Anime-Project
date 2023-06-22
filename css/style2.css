@@ -1,0 +1,132 @@
+/******************************************
+/* CSS
+/*******************************************/
+/* CSS Reset & Box Model Hack */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* ----------------------- Reset font to 10px per 1rem ----------------------- */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(#0000004f, #0000004f),
+    url("../img/bg.jpg") center center/cover no-repeat;
+  height: 100vh;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.container {
+  margin: auto;
+  width: 84%;
+}
+
+img {
+  width: 6rem;
+  display: block;
+  margin: auto;
+}
+
+.contentLeft div:first-child img,
+.contentLeft div:nth-child(14) img {
+  width: 4rem;
+}
+
+.contentLeft div:nth-child(4) img,
+.contentLeft div:nth-child(7) img {
+  width: 5rem;
+}
+
+span {
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* ----------------------- Anime Selection boxes ----------------------- */
+.box {
+  width: 10rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentLeft .box {
+  cursor: pointer;
+}
+
+.frostedGlass {
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(5px);
+  border-radius: 1rem;
+}
+
+.contentLeft .frostedGlass:hover {
+  background: rgba(3, 67, 151, 0.425);
+  border: 1px solid rgba(3, 67, 151, 0.918);
+}
+
+.active {
+  background: rgba(3, 67, 151, 0.425);
+  border: 1px solid rgba(3, 67, 151, 0.918);
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  margin: 1rem auto 0 auto;
+  width: 45rem;
+}
+
+header h1 {
+  text-align: center;
+  margin: 0;
+  padding: .5rem;
+  font-size: 3rem;
+}
+
+/* ----------------------- Equal area for content on the left and right ----------------------- */
+main {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-top: 1.5rem;
+}
+
+main > div {
+  flex: 1;
+}
+
+/* ----------------------- Display anime selection in a grid ----------------------- */
+.contentLeft {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.contentLeft div {
+  margin: 0 .8rem 1rem .8rem;
+}
+
+/* ----------------------- set the size of video box ----------------------- */
+.contentRight .box {
+  width: 60rem;
+  height: 34.6rem;
+}
+
+/* ----------------------- Align the content to v/h center ----------------------- */
+.contentRight {
+  margin-left: 0;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
