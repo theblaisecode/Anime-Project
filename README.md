@@ -8,7 +8,7 @@ When an anime is selected, the background image changes and the intro video star
 
 ## The Result
 
-![App Screenshot](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/aqbssn4qnnb7jwp9kbw2.jpg)
+![App Screenshot](https://i.imgur.com/5lKsCvF.mp4)
 
 
 ## Tech Stack
