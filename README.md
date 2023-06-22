@@ -8,7 +8,8 @@ When an anime is selected, the background image changes and the intro video star
 
 ## The Result
 
-![App Screenshot](https://i.imgur.com/5lKsCvF.mp4)
+
+https://github.com/theblaisecode/Anime-Project/assets/89015653/11e22c95-a67a-411b-b838-123dfb0138c9
 
 
 ## Tech Stack
