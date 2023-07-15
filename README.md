@@ -1,5 +1,5 @@
 
-# Personal Project - Pick your favorite anime
+# Anime Verse - Pick your favorite anime
 
 This is built solely on HTML, CSS, and JavaScript (fully responsive on all screens).
 
@@ -21,5 +21,7 @@ HTML, CSS, JS
 
 ## Authors
 
-- [@theblaisecode](https://github.com/theblaisecode)
+- Github - [@theblaisecode](https://github.com/theblaisecode)
+- Twitter - [@theblaisecode](https://twitter.com/theblaisecode)
+- LinkedIn - [@theblaisecode](https://www.linkedin.com/in/theblaisecode)
 
