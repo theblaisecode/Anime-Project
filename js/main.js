@@ -24,7 +24,7 @@ document.querySelector("#videoOst").append(vid);
 // Set video size and controls
 // vid.width = 580;
 vid.autoplay = true;
-vid.controls = false;
+vid.controls = true;
 
 // Instructions to run after anime box is clicked
 function animeAot() {
